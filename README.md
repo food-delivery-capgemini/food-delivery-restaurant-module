@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # FoodDeliveryApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
@@ -30,3 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # resturant-module
 This repository contains the restaurant module of food app.
 >>>>>>> 8ec047b844bf794d0d56cc8dc6b41286710bdef2
+=======
+# food-delivery-restaurant-module
+This repository contains restaurant module of food application.
+>>>>>>> 0bf46043344e1eb69ed4677d0d3d93320bdc356b
