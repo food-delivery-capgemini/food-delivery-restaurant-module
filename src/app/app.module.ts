@@ -3,27 +3,24 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { WelcomeComponent } from './welcome.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
-import { EditMenuComponent } from './editmenu.component';
-import { AdminModule } from 'src/admin/admin.module';
-import { RestaurantModule } from 'src/restaurant/restaurant.module';
-import { AppService } from './app.service';
+import { AdminModule } from 'src/app/admin/admin.module';
+import { RestaurantModule } from 'src/app/restaurant/restaurant.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    WelcomeComponent,
-    EditMenuComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     AdminModule,
-    RestaurantModule
+    RestaurantModule,
+    FormsModule
   ],
-  providers: [AppService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

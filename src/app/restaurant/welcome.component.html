@@ -6,8 +6,8 @@
     <div class="col-sm-6" *ngFor="let order of orders">
         <div class="card" style="background-color:rgb(66, 65, 65); opacity: 0.85 ">
             <div class="card-body text-light">
-                <h4 class="card-title">ORDER #{{order.orderNumber}}</h4>
-                <label class="card-text">DISH NAME: </label> {{order.dish}}
+                <h4 class="card-title">ORDER #{{order._Id}}</h4>
+                <label class="card-text">DISH NAME: </label> {{order.dishName}}
                 <br>
                 <label class="card-text ">PRICE: </label> {{order.price}} <br>
                 <label class="card-text">QUANTITY: </label> {{order.quantity}}
@@ -17,3 +17,5 @@
         </div> <br>
     </div>
 </div>
+
+<!-- (ngSubmit)="orderDetails()" #accountForm="ngForm" -->

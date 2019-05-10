@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AdminModule } from './admin.module';
+
 
 @Component({
     templateUrl:"./admin.component.html"
